@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parents{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    background-color: rgb(159, 26, 26);
+    border: 1px solid aqua;
+    width: 100%;
+   
+}
+    
+.card{
+    width: 100%;
+    background-color: aquamarine;
+    border: 10px solid antiquewhite;
+    
+}
+img{
+    width: 100%; 
+    /* height: 300px; */
+}
+@media screen and (max-width:650px) {
+    .parents{
+        flex-direction: column-reverse;
+    }
+}
